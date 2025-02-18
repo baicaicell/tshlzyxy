@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>泰山护理职业学院</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      body, html{
+        font-family: Arial, sans-serif;
+        background-color: rgb(244, 246, 248);
+        height: 100%;
+        width: 100%;
+      }
+
+      .header {
+        width: 100%;
+      }
+      .header img{
+        width: 100%;
+        height: 100%;
+      }
+      footer{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        height: 60px;
+        width: 100%;
+        background-color: #fff;
+      }
+      .fo-item img{
+        height: 40px;
+      }
+      .fo-list{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+      }
+      .fo-item{
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+     .box-list{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+        background: #fff;
+        padding: 20px 0;
+     }
+     .box-item{
+        width: calc((100% - 45px)/4);
+        margin-right: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 15px;
+     }
+     .box-item:nth-child(4n){
+        margin-right: 0;
+     }
+     .title{
+        font-size: 14px;
+        margin-top: 3px;
+     }
+
+    
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <img src="images/banner.png" alt="" />
+    </div>
+    <div class="box-list">
+        <div class="box-item" onclick="window.location.href='page1.html'">
+            <img src="images/img1.png" alt="">
+            <span class="title">账单缴费</span>
+        </div>
+        <div class="box-item">
+            <img src="images/img2.png" alt="">
+            <span class="title">报名服务</span>
+        </div>
+        <div class="box-item">
+            <img src="images/img3.png" alt="">
+            <span class="title">校园充值</span>
+        </div>
+        <div class="box-item">
+            <img src="images/img4.png" alt="">
+            <span class="title">转账付款</span>
+        </div>
+        <div class="box-item">
+            <img src="images/img5.png" alt="">
+            <span class="title">贷款申报</span>
+        </div>
+       
+     
+    </div>
+    <footer>
+        <ul class="fo-list">
+            <li class="fo-item">
+                <a href="">
+                    <img src="images/icon1.png" alt="">
+                </a>
+            </li>
+            <li class="fo-item">
+                <a href="#">
+                    <img src="images/icon2.png" alt="">
+                </a>
+            </li>
+        </ul>
+    </footer>
+  </body>
+</html>
